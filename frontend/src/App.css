@@ -1,0 +1,39 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maincontainer {
+  width: 100%;
+  height: 100vh;
+  background-color: #fffdec;
+  display: flex;
+}
+.leftcontainer {
+  width: 65%;
+  height: 100vh;
+  background-color: #fcffc1;
+  float: left;
+}
+.rightcontainer {
+  width: 35%;
+  height: 100vh;
+  background-color: blue;
+  float: right;
+}
+.formcontainer {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  background-color: #f6f4f0;
+  bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 2px solid black;
+}
+.formcontainer textarea {
+  width: 350px;
+  height: 100px;
+}
