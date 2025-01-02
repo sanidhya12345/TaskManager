@@ -1,0 +1,15 @@
+/** @format */
+
+.task {
+  width: 120px;
+  height: 40px;
+  background-color: orange;
+  color: black;
+  font-size: 25px;
+  border: 2px solid violet;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
